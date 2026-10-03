@@ -1,2 +1,2 @@
-# AjudaSP
-Projeto associado a disciplina MAC0413.
+# BSR8-SP
+Projeto associado a disciplina MAC0332.
