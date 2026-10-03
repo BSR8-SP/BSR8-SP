@@ -1,6 +1,6 @@
 [submodule "web"]
 	path = web
-	url = git@github.com:AjudaSP/web.git
+	url = git@github.com:Relatorio156/web.git
 [submodule "server"]
 	path = server
-	url = git@github.com:AjudaSP/server.git
+	url = git@github.com:Relatorio156/server.git
