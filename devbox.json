@@ -1,0 +1,28 @@
+{
+  "packages": [
+    "nodejs@22",
+    "pnpm",
+    "git",
+    "python3",
+    "pkg-config",
+    "gcc",
+    "gnumake",
+    "openjdk@17", 
+    "watchman",
+    "unzip",
+    "android-tools"
+  ],
+  "shell": {
+    "init_hook": [
+      ". $VENV_DIR/bin/activate"
+    ],
+    "scripts": {
+    }
+  },
+  "env_from": ".env",
+  "env": {
+    "NODE_ENV": "development",
+    "ANDROID_HOME": "$HOME/Android/Sdk",
+    "npm_config_legacy_peer_deps": "true"
+  }
+}
